@@ -1,0 +1,278 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../image/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    background-color: #ffffff;
+    height: 35px;
+    border: 2px  solid rgb(227, 227, 227);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+.logo{
+    
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+
+}
+.items1{
+    margin-left: 80px;
+}
+    
+    
+
+
+.items1 a{
+    text-decoration: none;
+    color:rgb(142, 140, 140);
+    padding:5px ;
+    padding-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:50px ;
+   
+    
+    
+    
+}
+.items2{
+    margin-left: 100px;
+}
+
+
+.login a{  
+     text-decoration: none;
+    color:rgb(4, 4, 4);
+    padding: 12px;
+   
+   font-style: normal;
+   padding-left: 80px;
+ 
+}
+.reg a{ 
+    text-decoration: none;
+    color:rgb(78, 72, 72);
+    padding: 12px;
+    font-family: 'montserrat';
+   font-style: normal;
+   
+
+}
+.AR a{
+    text-decoration: none;
+    color:rgb(198, 195, 195);
+
+}
+.EN a{
+    color: rgba(231, 88, 11, 0.711);
+    padding: 4px;
+    
+
+}
+.AR{
+    margin-right: 30px;
+}
+.box{
+
+    text-align: center;
+
+    
+    
+}
+.box h2{
+    margin-right: 10px;
+    padding-top: 40px;
+}
+.button button{
+background-color: rgb(45, 42, 42);
+color: #ffffff;
+width: 150px;
+border-radius: 5px;
+border: none;
+height: 28px;
+cursor: pointer;
+}
+.inputt{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding-top: 40px;
+    
+ 
+ 
+    
+    
+ 
+}
+input{
+    width: 80%;
+   border: none;
+    background:transparent;  
+}
+input::placeholder{
+    color:rgba(128, 128, 128, 0.736)
+
+    
+}
+
+ .icons{
+margin-right: 5px;
+ 
+  
+ 
+    
+}
+.icons img{
+    padding: 5px;
+    
+    
+}
+.links{
+    width: 30%;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 40px;
+  
+}
+.links a{
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.67);
+    cursor: pointer;
+}
+ 
+.translator{
+    background-color: white;
+    width: 22%;
+    height: 370px;
+    border: 1px solid rgba(0, 0, 0, 0.174);
+    border-radius: 7px;
+    box-shadow: 0px 4px 20px  rgba(128, 128, 128, 0.181);
+    padding-top: 10px;
+
+    
+    
+}
+.child{
+   
+    margin-left: 25px;
+}
+.info{
+    margin-left: 30px;
+
+}
+.roles{
+    color: rgba(128, 128, 128, 0.579);
+    
+}
+.btn1 button{
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.974);
+    height: 30px;
+    width: 80%;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+   }
+.father{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+
+}
+.seccard{
+    background-color: white;
+    width: 23%;
+    height: 370;
+    border: 1px solid rgba(0, 0, 0, 0.174);
+    border-radius: 7px;
+    box-shadow: 0px 4px 20px   rgba(128, 128, 128, 0.181);
+    padding-top: 10px;
+}
+.iitemssec{
+    margin-left: 20px;
+
+}
+.buut button{
+    
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.974);
+    height: 30px;
+    width: 80%;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.thirdcard{
+    background-color: white;
+    width: 22%;
+    height: 370px;
+    border: 1px solid rgba(0, 0, 0, 0.174);
+    border-radius: 7px;
+    box-shadow: 0px 4px 20px  rgba(128, 128, 128, 0.181);
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+ 
+}
+.history{
+    margin-left: 20px;
+}
+.history2 img{
+    margin-left: 25px;
+    padding-left: 10px;
+}
+
+    
+
+
+
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    justify-content: space-around;
+    
+    width: 100%;
+}
+.foterp{
+    color:gray;
+}
+.footend{
+    background-color: black;
+    display: flex;
+}
+    
+ 
+ 
+    
+
+
+
+
+
+
